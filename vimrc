@@ -13,7 +13,7 @@ syntax on
 set showmode
 
 " tell vim to keep a backup file
-set backup
+"set backup
 
 " tell vim where to put its backup files
 "set backupdir=/private/tmp
@@ -39,9 +39,9 @@ set hlsearch
 " make searches case insensitive
 set ignorecase
 
-call pathogen#infect()
+"call pathogen#infect()
 " --- vim map (macro) commands ---
-map #1 :!more ~/.vi_help^M
+"map #1 :!more ~/.vi_help^M
 "map <F2> :NERDTreeToggle<CR>
 "nnoremap <silent> <F7> :TlistUpdate<CR>
 "nnoremap <silent> <F8> :Tlist<CR>
@@ -61,3 +61,4 @@ imap <Right> <nop>
 " for tagList
 "let Tlist_Use_Right_Window = 1
 "let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
+
