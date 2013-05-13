@@ -16,10 +16,10 @@ set showmode
 set backup
 
 " tell vim where to put its backup files
-set backupdir=/private/tmp
+"set backupdir=/private/tmp
 
 " tell vim where to put swap files
-set dir=/private/tmp
+"set dir=/private/tmp
 
 " set a numbers
 set number
@@ -42,10 +42,10 @@ set ignorecase
 call pathogen#infect()
 " --- vim map (macro) commands ---
 map #1 :!more ~/.vi_help^M
-map <F2> :NERDTreeToggle<CR>
-nnoremap <silent> <F7> :TlistUpdate<CR>
-nnoremap <silent> <F8> :Tlist<CR>
-nnoremap <silent> <F9> :TlistSync<CR>
+"map <F2> :NERDTreeToggle<CR>
+"nnoremap <silent> <F7> :TlistUpdate<CR>
+"nnoremap <silent> <F8> :Tlist<CR>
+"nnoremap <silent> <F9> :TlistSync<CR>
 
 " to fix my habit -_-;
 map <Up> <nop>
@@ -59,6 +59,5 @@ imap <Left> <nop>
 imap <Right> <nop>
 
 " for tagList
-let Tlist_Use_Right_Window = 1
-
-
+"let Tlist_Use_Right_Window = 1
+"let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
