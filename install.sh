@@ -1,9 +1,8 @@
 #!/bin/sh
 
 VIM="$HOME/.vim"
-VUNDLE="$VIM/bundle/vundle"
 
-printError() {
+err() {
   echo "error: $1"
   echo ""
   echo "(try: rm -rf ~/.vim*)"
@@ -12,12 +11,12 @@ printError() {
 
 if [ -d $VIM ];
 then
-  printError "Directory '$VIM' already exists"
+  err "Directory '$VIM' already exists"
 fi
 
 if [ -L $VIM ];
 then
-  printError "'$VIM' is currently symlinked"
+  err "'$VIM' is currently symlinked"
 fi
 
 echo "installing sjune's vim configuration..."
