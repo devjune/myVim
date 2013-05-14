@@ -20,6 +20,7 @@ then
 fi
 
 echo "installing sjune's vim configuration..."
+git clone https://github.com/sjune/myVim.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 cd $VIM
 git submodule update --init
