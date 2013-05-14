@@ -1,6 +1,10 @@
 ## sjune/myVim
 개인적으로 사용하는 vim 설정파일입니다. 
 
+### cUrl로 설치
+<pre>
+$ curl -o - https://raw.github.com/sjune/myVim/master/install.sh | sh
+</pre>
 ### wget으로 설치
 <pre>
 $ wget -O - https://raw.github.com/sjune/myVim/master/install.sh | sh
