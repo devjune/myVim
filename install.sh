@@ -23,9 +23,6 @@ fi
 echo "installing sjune's vim configuration..."
 ln -s ~/.vim/vimrc ~/.vimrc
 cd $VIM
-
-git submodule init
-git submodule update
-
+git submodule update --init
 echo "complete!"
 
