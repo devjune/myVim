@@ -1,4 +1,4 @@
-## my vim configuration
+## sjune/myVim
 개인적으로 사용하는 vim 설정파일입니다. 
 
 ### wget으로 설치
