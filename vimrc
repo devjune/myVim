@@ -39,13 +39,10 @@ set hlsearch
 " make searches case insensitive
 set ignorecase
 
-"call pathogen#infect()
+call pathogen#infect()
 " --- vim map (macro) commands ---
 "map #1 :!more ~/.vi_help^M
-"map <F2> :NERDTreeToggle<CR>
-"nnoremap <silent> <F7> :TlistUpdate<CR>
-"nnoremap <silent> <F8> :Tlist<CR>
-"nnoremap <silent> <F9> :TlistSync<CR>
+map <F2> :NERDTreeToggle<CR>
 
 " to fix my habit -_-;
 map <Up> <nop>
@@ -58,7 +55,4 @@ imap <Down> <nop>
 imap <Left> <nop>
 imap <Right> <nop>
 
-" for tagList
-"let Tlist_Use_Right_Window = 1
-"let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
 
